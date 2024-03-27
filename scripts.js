@@ -65,8 +65,8 @@ $('.services__section-content').slick({
 
     if (windowBottom >= sectionTop) {
       animateValue("years", 0, 2, 300);
-      animateValue("servicesdone", 0, 200, 400);
-      animateValue("happyclients", 0, 70, 400);
+      animateValue("servicesdone", 0, 300, 400);
+      animateValue("happyclients", 0, 100, 400);
       $(window).off('scroll', handleScroll); // Detener el evento de scroll una vez activado
     }
   }
